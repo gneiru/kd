@@ -16,7 +16,7 @@ importers:
         version: 1.4.1
       '@irsyadadl/paranoid':
         specifier: ^1.1.7
-        version: 1.1.7(react@18.3.1)
+        version: 1.1.8(react@18.3.1)
       '@loglib/tracker':
         specifier: ^0.8.0
         version: 0.8.0(react@18.3.1)
@@ -1116,8 +1116,8 @@ packages:
   '@floating-ui/utils@0.1.6':
     resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
 
-  '@irsyadadl/paranoid@1.1.7':
-    resolution: {integrity: sha512-tD5z4Il6EsXC2W+5jZWexsRuNRwWPvWkYdYxbEabIbrGdPCNKZ5tfRxJz5nVi4XViJXLtSdowWY8+smey5+Axg==}
+  '@irsyadadl/paranoid@1.1.8':
+    resolution: {integrity: sha512-SOFp8lqCwiscBdUWOjOX/xXQgcKow3wQocGp2qh5QGC3yls+KaLFouDfXhfADcyzRScxXj9cWuYZzGN9qTS30A==}
     peerDependencies:
       react: ^16 || ^17 || ^18
 
@@ -2397,6 +2397,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -2463,6 +2464,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -3127,6 +3129,7 @@ packages:
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup-plugin-terser@7.0.2:
@@ -3594,6 +3597,7 @@ packages:
 
   workbox-google-analytics@6.6.0:
     resolution: {integrity: sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
 
   workbox-navigation-preload@6.6.0:
     resolution: {integrity: sha512-utNEWG+uOfXdaZmvhshrh7KzhDu/1iMHyQOV6Aqup8Mm78D286ugu5k9MFD9SzBT5TcwgwSORVvInaXWbvKz9Q==}
@@ -4600,7 +4604,7 @@ snapshots:
 
   '@floating-ui/utils@0.1.6': {}
 
-  '@irsyadadl/paranoid@1.1.7(react@18.3.1)':
+  '@irsyadadl/paranoid@1.1.8(react@18.3.1)':
     dependencies:
       react: 18.3.1
 
